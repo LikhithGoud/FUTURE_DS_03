@@ -5,7 +5,6 @@ FUTURE_DS_03
 📌 Overview
 This project is part of my Data Science & Analytics Internship at Future Interns.
 The goal of Task 3 was to analyze student feedback data and build a Power BI dashboard to uncover key insights about ratings, sentiment, and performance of various aspects of the course
-
 🎯 Objectives
 Process raw feedback data into a structured format.
 Categorize ratings into *Positive, **Neutral, and *Negative sentiments.
@@ -19,7 +18,6 @@ DAX (Data Analysis Expressions) – for calculated measures.
 CSV Dataset – student feedback data.
 📂 Dataset Details
 The dataset contains:
-
 Question – Feedback questions asked to students.
 Rating – Numeric ratings (1–10 scale).
 Sentiment – Derived column based on rating:
@@ -29,7 +27,6 @@ Positive → Rating 8 to 10
 ❓ Why Sentiment Analysis (NLP) Was Not Used
 The dataset provided for Task 3 contained only numeric ratings (1–10) without any open-ended text feedback.
 Since sentiment analysis in the traditional NLP sense requires textual comments (e.g., "The course was great" or "The assignments were too hard"), applying NLP was not possible. Instead, sentiment was derived directly from the numeric ratings using predefined thresholds:
-
 Negative → Rating ≤ 4
 Neutral → Rating 5 to 7
 Positive → Rating 8 to 10
